@@ -12,7 +12,7 @@ function AboutMe(){
             
             <div className ={`row ${AboutMeCSS.aboutMeDiv}`}>
                 <div className={`col-md-4 col-sm-6 col-10 mx-auto  ${AboutMeCSS.divImage}`}>
-                    <img className = {AboutMeCSS.myImg}src={meImgLink}></img>
+                    <img className = {AboutMeCSS.myImg} src={meImgLink} alt="myImage"></img>
                 </div>
                 <div class="col-md-8">
                 <p>
