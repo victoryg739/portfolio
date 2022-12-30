@@ -1,0 +1,36 @@
+.aboutMeDiv{
+    border: 3px outset #D80286;
+    border-radius: 9px;
+    padding:2vw;
+    clear:right;
+}
+
+.myImg{
+    width:100%;
+    max-width: 500px;
+    position:relative; 
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color: goldenrod;
+    border-radius: 100%;
+    margin-bottom: 50px;
+
+}
+
+b{
+    font-weight:600;
+    color:#D80286;
+}
+
+
+@media screen and (max-width:1140px) {
+    .aboutMeDiv{
+        padding:20px;
+    }
+  
+}
+  
+
+
+
