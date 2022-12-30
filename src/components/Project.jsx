@@ -24,19 +24,7 @@ function Project(){
             <hr className="style-eight"></hr>
             <h1 className ="titleStart" id="projectsHeader">{projectStart}</h1>
             {projects.map(createProject)}
-            {/* <div class="row projectCard">
-                <div className = "col-6">
-
-                    <img className="projectImg" src={image} width="90%" alt="wallStreetBets"></img>
-                </div>
-                <div className ="col-6" >
-                    <h3>Title</h3>
-                    
-                    <p>blabla</p>
-                    <button>Click</button>
-                </div>
-
-            </div> */}
+       
             <h1 className ="titleEnd">{projectEnd}</h1>
         </div>
     );

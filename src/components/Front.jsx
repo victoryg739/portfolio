@@ -1,13 +1,19 @@
 import React from "react";
-import background from "../assets/background.jpg";
 import Social from "./Social";
-import ShootingStars from "./ShootingStars";
-import MatrixBackground from "./MatrixBackground";
 import Background from "./Background";
 import FrontCSS from "./Front.module.css";
 import stylesCSS from "./styles.css"
+import { useState } from "react";
 
-function Front(){
+
+const Front =({frontRef}) =>{
+    const [name, setName] = useState("");
+
+    const onClick = (e) => {
+      e.preventDefault();
+      frontRef.current.scrollIntoView({ behavior: "smooth" });
+    };
+  
     return(
        <div className= {`${FrontCSS.FrontDiv} ${stylesCSS.Section}`}>
             <Social
@@ -20,25 +26,25 @@ function Front(){
             {/* <p className={FrontCSS.codeText}>while(<div className={FrontCSS.codeRed}>!</div>(<div className={FrontCSS.codeGreen}>succeed</div> = <div className={FrontCSS.codeYellow}>try()</div>));</p>  */}
             <div className="escIcons row justify-content-center">
                 <div className = "col-4 col-sm-2 d-flex justify-content-center">
-                    <i class="fa-solid fa-utensils ">
-                        <span class="caption">Eat();</span>
+                    <i className="fa-solid fa-utensils ">
+                        <span className="caption">Eat();</span>
                     </i>
                 </div>
                 <div className = "col-4 col-sm-2 d-flex justify-content-center">
-                     <i class="fa-solid fa-moon">
-                        <span class="caption">Sleep();</span>
+                     <i className="fa-solid fa-moon">
+                        <span className="caption">Sleep();</span>
                     </i>
                 </div>
                 <div className = "col-4 col-sm-2 d-flex justify-content-center">
-                    <i class="fa-solid fa-code">
-                        <small class="caption">Code();</small>
+                    <i className="fa-solid fa-code">
+                        <small className="caption">Code();</small>
                      </i>
                 </div>
             </div>
         
-            <section id={FrontCSS.section05} class={FrontCSS.demo}>
+            <section id={FrontCSS.section05} className={FrontCSS.demo}>
        
-                <a href="#aboutDiv"><span></span>Scroll</a>
+                <a onClick={onClick}><span></span>Scroll</a>
             </section>
             <Background/>
 

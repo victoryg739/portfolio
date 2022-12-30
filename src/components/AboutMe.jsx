@@ -1,11 +1,12 @@
 import AboutMeCSS from "./AboutMe.module.css";
 import meImgLink from "../assets/me.png";
+import {forwardRef} from "react";
 const aboutMeStart = "<About Me>";
 const aboutMeEnd = "</About Me>";
 
-function AboutMe(){
+const AboutMe = forwardRef((props,ref) => {
     return(
-        <div className="Section" id="aboutDiv">
+        <div className="Section" id="aboutDiv" ref={ref}>
             
             <h1 className ="titleStart">{aboutMeStart}</h1>
 
@@ -14,7 +15,7 @@ function AboutMe(){
                 <div className={`col-md-4 col-sm-6 col-10 mx-auto  ${AboutMeCSS.divImage}`}>
                     <img className = {AboutMeCSS.myImg} src={meImgLink} alt="myImage"></img>
                 </div>
-                <div class="col-md-8">
+                <div className="col-md-8">
                 <p>
                 Hi, my name is Victor Yoong and I am a computer science student from the Nanyang Technological University.  I have always been fascinated by the power of technology and how it can be used to solve problems and improve people's lives.
                 </p>
@@ -29,30 +30,30 @@ function AboutMe(){
                 </p>
                 <div className="row">
                     <div className="col-4">
-                    <i class="fa-solid fa-check"></i>
+                    <i className="fa-solid fa-check"></i>
                         React
                     </div>
                     <div className="col-4">
-                    <i class="fa-solid fa-check"></i>
+                    <i className="fa-solid fa-check"></i>
                         Node.js
                     </div>
                     <div className="col-4">
-                    <i class="fa-solid fa-check"></i>
+                    <i className="fa-solid fa-check"></i>
                         Next.js
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-4">
-                    <i class="fa-solid fa-check"></i>
+                    <i className="fa-solid fa-check"></i>
                         MongoDB
                     </div>
                     <div className="col-4">
-                    <i class="fa-solid fa-check"></i>
+                    <i className="fa-solid fa-check"></i>
                         MySQL
                     </div>
                     <div className="col-4">
-                    <i class="fa-solid fa-check"></i>
+                    <i className="fa-solid fa-check"></i>
                         Flask
                     </div>
                 </div>
@@ -66,5 +67,5 @@ function AboutMe(){
         </div>
 
     );
-}
+});
 export default AboutMe;

@@ -28,8 +28,6 @@ h1{
     margin-bottom:clamp(75px, 4.4vw, 20px);
 }
 
-
-
 .Section{
   margin-left:100px;
   margin-right: 100px;
@@ -38,7 +36,10 @@ h1{
 a {
     color: grey;
     text-decoration: none;
-  }
+}
+a:hover{
+  cursor: pointer;
+}
   
 .escIcons{
     color:goldenrod;
@@ -259,6 +260,3 @@ li{
  
   }  
 }
-
-
-

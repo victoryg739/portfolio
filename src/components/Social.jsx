@@ -6,13 +6,13 @@ function Social(props){
         
         <ul className={`${props.classname} list-unstyled`}>
             <li >
-                <a href="https://www.linkedin.com/in/victor-yoong/" class={`fa-brands fa-linkedin ${iconSize}`}></a>
+                <a href="https://www.linkedin.com/in/victor-yoong/" className={`fa-brands fa-linkedin ${iconSize}`}></a>
             </li>
             <li>
-                <a href="https://github.com/victoryg739" class={`fa-brands fa-square-github ${iconSize}`}></a>
+                <a href="https://github.com/victoryg739" className={`fa-brands fa-square-github ${iconSize}`}></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/victoryg99/" class={`fa-brands fa-instagram ${iconSize}`}></a>
+                <a href="https://www.instagram.com/victoryg99/" className={`fa-brands fa-instagram ${iconSize}`}></a>
             </li>
         </ul>
         
