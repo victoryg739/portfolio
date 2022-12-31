@@ -37,7 +37,7 @@ const Front =({frontRef}) =>{
                 </div>
                 <div className = "col-4 col-sm-2 d-flex justify-content-center">
                     <i className="fa-solid fa-code">
-                        <small className="caption">Code();</small>
+                        <span className="caption">Code();</span>
                      </i>
                 </div>
             </div>

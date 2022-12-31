@@ -29,30 +29,28 @@ const AboutMe = forwardRef((props,ref) => {
                 The following are some technologies I've worked with:
                 </p>
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-6 col-sm-4">
                     <i className="fa-solid fa-check"></i>
                         React
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-sm-4">
                     <i className="fa-solid fa-check"></i>
                         Node.js
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-sm-4">
                     <i className="fa-solid fa-check"></i>
                         Next.js
                     </div>
-                </div>
 
-                <div className="row">
-                    <div className="col-4">
+                    <div className="col-6 col-sm-4">
                     <i className="fa-solid fa-check"></i>
                         MongoDB
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-sm-4">
                     <i className="fa-solid fa-check"></i>
                         MySQL
                     </div>
-                    <div className="col-4">
+                    <div className="col-6 col-sm-4">
                     <i className="fa-solid fa-check"></i>
                         Flask
                     </div>
