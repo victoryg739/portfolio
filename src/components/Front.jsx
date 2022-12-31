@@ -15,12 +15,12 @@ const Front =({frontRef}) =>{
     };
   
     return(
-       <div className= {`${FrontCSS.FrontDiv} ${stylesCSS.Section}`}>
+       <div className= {`${FrontCSS.FrontDiv}`}>
             <Social
                 classname= "frontSocial"
             />
             <p>Hello world, my name is &nbsp;
-                <h2 className={FrontCSS.noNewLine}>Victor Yoong</h2>
+                <h2 className={FrontCSS.nameTag}>Victor Yoong</h2>
             </p>
             <p>Aspiring Computer Science Student</p>
             {/* <p className={FrontCSS.codeText}>while(<div className={FrontCSS.codeRed}>!</div>(<div className={FrontCSS.codeGreen}>succeed</div> = <div className={FrontCSS.codeYellow}>try()</div>));</p>  */}

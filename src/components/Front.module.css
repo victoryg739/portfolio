@@ -1,13 +1,19 @@
-.noNewLine{
+.nameTag{
   display:inline;
   font-weight: 700;
   font-size: clamp(20px, 3.8vw, 55px);
 }   
 
+@media screen and (max-width:440px) {
+  .nameTag{
+    display:block;
+  }
+}
+
 .FrontDiv{
     height:100vh;
     font-size: clamp(15px, 2vw, 30px);
-    margin:10px 1em 0 4em;
+    margin:10px 1em;
     letter-spacing: 1px;
     line-height: 50px;
     text-align:center;
