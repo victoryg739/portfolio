@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6678e55e.css",
-    "main.js": "/portfolio/static/js/main.c2cdca89.js",
+    "main.js": "/portfolio/static/js/main.f2028c91.js",
     "static/media/me.png": "/portfolio/static/media/me.75d812419484c958d9b3.png",
-    "static/media/Victor_Yoong_Resume.pdf": "/portfolio/static/media/Victor_Yoong_Resume.0b7b4792dc0efa6c7b30.pdf",
+    "static/media/Victor_Yoong_Resume.pdf": "/portfolio/static/media/Victor_Yoong_Resume.ae5fab2a615ebc84f48b.pdf",
     "static/media/wallStreetbets.jpg": "/portfolio/static/media/wallStreetbets.7ea8fe5bee898fa78ef3.jpg",
     "static/media/logo.png": "/portfolio/static/media/logo.41e4e64a6de5f7e5fc11.png",
     "static/media/timelessMarket.png": "/portfolio/static/media/timelessMarket.33a529e3a5260b2e757c.png",
     "index.html": "/portfolio/index.html",
     "main.6678e55e.css.map": "/portfolio/static/css/main.6678e55e.css.map",
-    "main.c2cdca89.js.map": "/portfolio/static/js/main.c2cdca89.js.map"
+    "main.f2028c91.js.map": "/portfolio/static/js/main.f2028c91.js.map"
   },
   "entrypoints": [
     "static/css/main.6678e55e.css",
-    "static/js/main.c2cdca89.js"
+    "static/js/main.f2028c91.js"
   ]
 }
